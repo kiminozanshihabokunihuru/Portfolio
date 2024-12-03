@@ -1,0 +1,35 @@
+body {
+    font-family: 'Quicksand', serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text for readability */
+}
+
+.header {
+    text-align: center;
+    padding-top: 2%;
+    color: #e0e0e0; /* Light color for the header */
+}
+
+.username {
+    font-family: 'Marck Script', serif;
+    font-size: 60px;
+    color: #ffcc00; /* Accent color for username */
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #444444, #666666, #444444); /* Darker gradient for the line */
+    background-image: -moz-linear-gradient(left, #444444, #666666, #444444);
+    background-image: -ms-linear-gradient(left, #444444, #666666, #444444);
+    background-image: -o-linear-gradient(left, #444444, #666666, #444444);
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffcc00; /* Accent color on hover */
+}
+
+a {
+    color: #bbbbbb; /* Lighter link color for dark theme */
+}
